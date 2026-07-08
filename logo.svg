@@ -1,0 +1,66 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coinBg" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#7A5800"/>
+      <stop offset="45%" stop-color="#4A3200"/>
+      <stop offset="100%" stop-color="#2A1A00"/>
+    </radialGradient>
+    <radialGradient id="ringG" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="35%" stop-color="#DAA520"/>
+      <stop offset="70%" stop-color="#A07800"/>
+      <stop offset="100%" stop-color="#7A5800"/>
+    </radialGradient>
+    <radialGradient id="ring2G" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#C8900A"/>
+      <stop offset="100%" stop-color="#8B6200"/>
+    </radialGradient>
+    <radialGradient id="rayG" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="40%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#8B6200"/>
+    </radialGradient>
+    <radialGradient id="sunG" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="55%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#9A7000"/>
+    </radialGradient>
+    <radialGradient id="textG" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="60%" stop-color="#C8900A"/>
+      <stop offset="100%" stop-color="#8B6200"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="199" fill="#1A0F00"/>
+  <circle cx="200" cy="200" r="193" fill="url(#ringG)"/>
+  <circle cx="200" cy="200" r="183" fill="#1A0F00"/>
+  <circle cx="200" cy="200" r="178" fill="url(#ring2G)"/>
+  <circle cx="200" cy="200" r="170" fill="url(#coinBg)"/>
+  <g fill="url(#rayG)">
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(22.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(45,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(67.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(90,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(112.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(135,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(157.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(180,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(202.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(225,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(247.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(270,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(292.5,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(315,200,200)"/>
+    <path d="M191,113 C185,82 196,55 200,44 C204,55 215,82 209,113 Z" transform="rotate(337.5,200,200)"/>
+  </g>
+  <circle cx="200" cy="200" r="96" fill="#2A1A00"/>
+  <circle cx="200" cy="200" r="93" fill="url(#ring2G)"/>
+  <circle cx="200" cy="200" r="87" fill="url(#sunG)"/>
+  <text x="200" y="215" text-anchor="middle"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="48" font-weight="900"
+    fill="url(#textG)"
+    letter-spacing="2">SLNA</text>
+</svg>
